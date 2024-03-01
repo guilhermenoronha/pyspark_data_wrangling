@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyspark-data-wrangling"
+version = "1.0.0"
+description = "Package with some helpful pyspark functions to manipulate some annoying transformations."
+authors = ["Guilherme Noronha <guilherme.francis@totvs.com.br>"]
+license = "GPL-3.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "3.3.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
